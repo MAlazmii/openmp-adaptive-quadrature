@@ -91,3 +91,8 @@ The measurement script is retained locally. Archive and compilation input
 hashes are recorded in `data/archive-check.json`. The curated data and
 plotting command reproduce the chart without access to the University
 starter files.
+
+## Acknowledgement
+
+The coursework targeted the Cirrus HPC service at EPCC.
+[Cirrus service documentation](https://docs.cirrus.ac.uk/user-guide/introduction/)
