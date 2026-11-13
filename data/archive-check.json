@@ -1,0 +1,26 @@
+{
+  "source": "Threaded Programming assessment 2 saved source archive and report, 2024\u201325",
+  "archive_timing_rows_cross_checked_against_report": 36,
+  "unchanged_starter_files": [
+    "function.c",
+    "function.h"
+  ],
+  "source_bundle_sha256": "3f6c70a2767b755f3d21b3630689ecd104e579684a0e8fc3a2a0f0537cc115d0",
+  "supplied_bundle_sha256": "c046bf1db203745a5aa8062b52b63b0904449ef5c6f99fb0f425e914fbf0eede",
+  "compiled_source_sha256": {
+    "solver1.c": "98f962842faf4d12e7ae7d6fe44f493dcdbd991cc34970fc0f216bffb5b4c737",
+    "solver2.c": "b8934a2af36e66f5047a8b97533e53709ecbd7a04e65cf95de6d6116686afd70",
+    "function.c": "8b5b6b6bd74c5bf709c7ad04caa7b5d8c9ddc35c93de80a0f70aad0affe95e6f",
+    "function.h": "2a52b3b0e458572e925cb11430f87aaffeb2937128ef7684fdfacb460f342be0"
+  },
+  "unattributed_console_measurement": {
+    "printed_estimate": -0.6877178,
+    "reported_seconds": 1.31137
+  },
+  "analytic_reference": {
+    "piecewise_half_angle_fsum": -0.16982011826730736,
+    "direct_piecewise_70_digits": "-0.169820118267307940760558205132019793439793",
+    "geometric_series_70_digits": "-0.169820118267307940760558205132019793439793",
+    "direct_minus_geometric_abs": 7.484518758650278e-69
+  }
+}

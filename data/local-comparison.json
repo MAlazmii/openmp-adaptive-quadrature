@@ -1,0 +1,77 @@
+{
+  "run_date": "2026-11-13",
+  "machine": "Apple M1 MacBook Air",
+  "macos_version": "26.6.2",
+  "execution": "x86-64 Mach-O under Rosetta",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+  "openmp_runtime": "Homebrew LLVM libomp 20.1.5",
+  "compiler_flags": [
+    "-arch",
+    "x86_64",
+    "-std=c17",
+    "-O3",
+    "-Xpreprocessor",
+    "-fopenmp"
+  ],
+  "runtime_flags": [
+    "OMP_DYNAMIC=FALSE",
+    "OMP_NUM_THREADS=1 or 4"
+  ],
+  "team_sizes_in_separate_openmp_probe": {
+    "1": 1,
+    "4": 4
+  },
+  "sample_order": [
+    1,
+    4,
+    4,
+    1,
+    1,
+    4
+  ],
+  "timed_region": "Original program's elapsed timer includes endpoint evaluations and the full OpenMP parallel region",
+  "recursive_solver": {
+    "samples_by_requested_threads": {
+      "1": [
+        {
+          "result_as_printed": "-1.699471e-01",
+          "seconds_as_printed": "33.276384"
+        },
+        {
+          "result_as_printed": "-1.699471e-01",
+          "seconds_as_printed": "34.665372"
+        },
+        {
+          "result_as_printed": "-1.699471e-01",
+          "seconds_as_printed": "33.952940"
+        }
+      ],
+      "4": [
+        {
+          "result_as_printed": "-1.699471e-01",
+          "seconds_as_printed": "9.329616"
+        },
+        {
+          "result_as_printed": "-1.699471e-01",
+          "seconds_as_printed": "10.200132"
+        },
+        {
+          "result_as_printed": "-1.699471e-01",
+          "seconds_as_printed": "9.214073"
+        }
+      ]
+    },
+    "median_seconds_by_requested_threads": {
+      "1": 33.95294,
+      "4": 9.329616
+    },
+    "one_to_four_thread_median_ratio": 3.6392644670477328,
+    "common_result_as_printed": "-1.699471e-01",
+    "approximate_absolute_error_from_printed_result": 0.00012698173269262703
+  },
+  "saved_queue_solver": {
+    "requested_threads": 1,
+    "result_as_printed": "0.000000e+00",
+    "seconds_as_printed": "0.001870"
+  }
+}
